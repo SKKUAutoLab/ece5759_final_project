@@ -8,9 +8,11 @@ Pillow>=7.1.2
 PyYAML>=5.3.1
 requests>=2.23.0
 scipy>=1.4.1  # Google Colab version
+# --extra-index-url https://download.pytorch.org/whl/cu113
 torch>=1.7.0
 torchvision>=0.8.1
 tqdm>=4.41.0
+psutil
 
 # Logging -------------------------------------
 tensorboard>=2.4.1

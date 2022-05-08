@@ -72,8 +72,9 @@ conda activate mlhomework
 # You only need to call this command once. If you have already install it, just skip this step
 conda install git jupyter
 git clone https://github.com/phlong3105/mlhomework
+cd mlhomework
+pip install -qr requirements.txt
 
 # Finally, run Jupyter Notebook and open the `homework.ipynb` file in your web browser:
-cd mlhomework
 jupyter-notebook
 ```
