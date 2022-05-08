@@ -2,23 +2,56 @@
 
 ML Homework: YOLOv5 Object Detection
 =============================
-`onevision` is a foundational library for computer vision research. 
-It includes supporting functions, data types, data classes, layers, losses, 
-metrics, ..., datasets, and models.
-
-<p align="center">
-  <a href="#overview">Overview</a> •  
-  <a href="#getting-started">Getting Started</a> •
-  <a href="#contact">Contact</a>
-</p>
 </div>
 
+
 ## <div align="center">Overview</div>
+
+<details open>
+<summary>Object detection</summary>
+
+Object detection is the task of detecting instances of objects of a certain class 
+within an image. Each detected objects are usually marked with a bounding boxes 
+along with a confidence score and a class ID.
+
+<img src="data/picture1.png" alt="drawing" style="height:300px;"/>
+<br>
+
+Here is a demo:
+
+<img src="data/media1.gif" height="300" />
+
+</details>
+
+
+<details open>
+<summary>YOLOv5</summary>
 
 YOLOv5 🚀 is a family of object detection architectures and models pretrained 
 on the COCO dataset, and represents <a href="https://ultralytics.com">Ultralytics</a>
 open-source research into future vision AI methods, incorporating lessons learned 
 and best practices evolved over thousands of hours of research and development.
+
+<img src="data/picture2.png" alt="drawing" style="height:200px;"/>
+
+</details>
+
+
+<details open>
+<summary>VisDrone</summary>
+
+- Drones, or general UAVs, equipped with cameras have been fast deployed to a 
+wide range of applications, including agricultural, aerial photography, fast 
+delivery, and surveillance. 
+- Automatic understanding of visual data collected from these platforms become 
+highly demanding, which brings computer vision to drones more and more closely. 
+
+<img src="data/picture3.jpg" alt="drawing" style="height:300px;"/>
+
+</details>
+
+
+## <div align="center">Tasks & Goals</div>
 
 <details open>
 <summary>Tasks</summary>
@@ -34,9 +67,19 @@ and best practices evolved over thousands of hours of research and development.
 <summary>Goals</summary>
 
 - Given a limited amount of training time (2 weeks), you must obtain the highest accuracy on the given dataset.
-- At the end, you must make a report containing the following information: 
-  - Training time (with respect to different GPU devices), 
-  - Model's accuracy (mAP@50) .
+- At the end, uou must make a simple Word file reporting the following information: 
+  - Model variance,
+  - GPU device,
+  - Training time, 
+  - Epochs
+  - Test accuracy (mAP@50). 
+  - Example:
+
+| Model   |            GPU            | Training time | Epochs | mAP@50 |
+|---------|:-------------------------:|--------------:|-------:|-------:|
+| YOLOv5s | NVIDIA TITAN Xp, 12193MiB |   0.488 hours |     20 |  0.199 |
+
+
 - **At the end of this homework, the student with the highest accuracy and training time will be rewarded with a special price.**
 
 </details>
@@ -64,8 +107,7 @@ cd <to-wherever-you-want-to-store-the-homework-files>
 # Create a new environment named `mlhomework`
 conda create --name mlhomework python=3.9
 
-# Activate the environment (you must activate the conda environment everytime you 
-# start the terminal
+# Activate the environment (you must activate the conda environment everytime you start the terminal
 conda activate mlhomework
 
 # Install Jupyter Notebook and clone the `homework` repo. 
