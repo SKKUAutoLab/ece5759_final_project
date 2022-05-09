@@ -60,10 +60,14 @@ highly demanding, which brings computer vision to drones more and more closely.
 - The model, data, training and testing pipelines have been provided.
 - Your job is to perform training and testing YOLOv5 models on the given dataset. 
 - You can adjust some basic parameters to make the training faster, or to obtain higher accuracy.
-- **Deadline:**
-  - **First trial: 11:59 PM at May 16**
-  - **Second trial: 11:59 PM at May 23**
-  - **Final: 11:59 PM at May 30**
+</details>
+
+<details open>
+<summary>Deadline:</summary>
+
+- **First trial: 11:59 PM at May 16**
+- **Second trial: 11:59 PM at May 23**
+- **Final: 11:59 PM at May 30**
 
 </details>
 
@@ -74,8 +78,7 @@ highly demanding, which brings computer vision to drones more and more closely.
 - You must make prepare a submission file of the test-set:
   - Run prediction scripts in the Jupyter Notebook and obtain the results (.txt file) for each image.
   - Compress everything to a single zip file and rename it to: student_id.zip
-
-- **At the end, we will select the best result among three trials of each student and announce the result of each trial.**
+- **We will select the best result among three trials of each student and announce the result of each trial.**
 
 </details>
 
@@ -115,3 +118,7 @@ pip install -r requirements.txt
 # Finally, run Jupyter Notebook and open the `homework.ipynb` file in your web browser:
 jupyter-notebook
 ```
+
+## <div align="center">Leaderboard</div>
+
+TBA
