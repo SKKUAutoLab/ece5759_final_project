@@ -110,7 +110,7 @@ conda activate homework
 conda install git jupyter
 git clone https://github.com/SKKU-AutoLab-VSW/ece5759_homework
 cd ece5759_homework
-pip install -qr requirements.txt
+pip install -r requirements.txt
 
 # Finally, run Jupyter Notebook and open the `homework.ipynb` file in your web browser:
 jupyter-notebook
