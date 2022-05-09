@@ -60,27 +60,22 @@ highly demanding, which brings computer vision to drones more and more closely.
 - The model, data, training and testing pipelines have been provided.
 - Your job is to perform training and testing YOLOv5 models on the given dataset. 
 - You can adjust some basic parameters to make the training faster, or to obtain higher accuracy.
-- Deadline: (2 weeks)
+- **Deadline:**
+  - **First trial: 11:59 PM at May 16**
+  - **Second trial: 11:59 PM at May 23**
+  - **Final: 11:59 PM at May 30**
+
 </details>
 
 <details open>
 <summary>Goals</summary>
 
 - Given a limited amount of training time (2 weeks), you must obtain the highest accuracy on the given dataset.
-- At the end, uou must make a simple Word file reporting the following information: 
-  - Model variance,
-  - GPU device,
-  - Training time, 
-  - Epochs
-  - Test accuracy (mAP@50). 
-  - Example:
+- You must make prepare a submission file of the test-set:
+  - Run prediction scripts in the Jupyter Notebook and obtain the results (.txt file) for each image.
+  - Compress everything to a single zip file and rename it to: student_id.zip
 
-| Model   |            GPU            | Training time | Epochs | mAP@50 |
-|---------|:-------------------------:|--------------:|-------:|-------:|
-| YOLOv5s | NVIDIA TITAN Xp, 12193MiB |   0.488 hours |     20 |  0.199 |
-
-
-- **At the end of this homework, the student with the highest accuracy and training time will be rewarded with a special price.**
+- **At the end, we will select the best result among three trials of each student and announce the result of each trial.**
 
 </details>
 
