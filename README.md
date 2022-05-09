@@ -1,6 +1,6 @@
 <div align="center">
 
-ML Homework: YOLOv5 Object Detection
+Intelligent Control (ECE5759) Homework: Object Detection in Aerial Image
 =============================
 </div>
 
