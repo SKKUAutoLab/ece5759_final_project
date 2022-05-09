@@ -1,6 +1,6 @@
 <div align="center">
 
-Intelligent Control (ECE5759) Homework: Object Detection in Aerial Image
+Intelligent Control (ECE5759) Final Term Project: Object Detection in Aerial Image
 =============================
 </div>
 
@@ -100,22 +100,22 @@ To getting started, you must install [**anaconda**](https://www.anaconda.com/pro
 before hand. Then open the `terminal` and get started:
 
 ```shell
-cd <to-wherever-you-want-to-store-the-homework-files>
+cd <to-wherever-you-want-to-store-the-project-files>
 
-# Create a new environment named `mlhomework`
-conda create --name homework python=3.9
+# Create a new environment named `project`
+conda create --name project python=3.9
 
 # Activate the environment (you must activate the conda environment everytime you start the terminal
-conda activate homework
+conda activate project
 
-# Install Jupyter Notebook and clone the `homework` repo. 
+# Install Jupyter Notebook and clone the `project` repo. 
 # You only need to call this command once. If you have already install it, just skip this step
 conda install git jupyter
-git clone https://github.com/SKKU-AutoLab-VSW/ece5759_homework
-cd ece5759_homework
+git clone https://github.com/SKKU-AutoLab-VSW/ece5759_final_term_project
+cd ece5759_final_term_project
 pip install -r requirements.txt
 
-# Finally, run Jupyter Notebook and open the `homework.ipynb` file in your web browser:
+# Finally, run Jupyter Notebook and open the `final_project.ipynb` file in your web browser:
 jupyter-notebook
 ```
 
