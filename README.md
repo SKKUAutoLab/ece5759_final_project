@@ -100,16 +100,16 @@ before hand. Then open the `terminal` and get started:
 cd <to-wherever-you-want-to-store-the-homework-files>
 
 # Create a new environment named `mlhomework`
-conda create --name mlhomework python=3.9
+conda create --name homework python=3.9
 
 # Activate the environment (you must activate the conda environment everytime you start the terminal
-conda activate mlhomework
+conda activate homework
 
 # Install Jupyter Notebook and clone the `homework` repo. 
 # You only need to call this command once. If you have already install it, just skip this step
 conda install git jupyter
-git clone https://github.com/phlong3105/mlhomework
-cd mlhomework
+git clone https://github.com/SKKU-AutoLab-VSW/ece5759_homework
+cd ece5759_homework
 pip install -qr requirements.txt
 
 # Finally, run Jupyter Notebook and open the `homework.ipynb` file in your web browser:
