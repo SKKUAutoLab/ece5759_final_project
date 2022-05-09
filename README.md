@@ -121,8 +121,6 @@ jupyter-notebook
 
 ## <div align="center">Leaderboard</div>
 
-TBA
-
 | Student ID | mAP@50 (1st) | mAP@50 (2nd) | mAP@50 (3rd) |
 |------------|:------------:|-------------:|-------------:|
 | Baseline   |    0.109     |              |              |
