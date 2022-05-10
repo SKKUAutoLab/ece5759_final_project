@@ -73,6 +73,13 @@ highly demanding, which brings computer vision to drones more and more closely.
 
 </details>
 
+<details open>
+<summary>Scoring Rule</summary>
+
+- We will use the popular COCO mAP@50 score to judge the accuracy of object detection models.
+- More details about this metric can be found here: [link](https://towardsdatascience.com/map-mean-average-precision-might-confuse-you-5956f1bfa9e2)
+
+</details>
 
 **Submission link**: https://codalab.lisn.upsaclay.fr/competitions/4806
 - **Register using school email account (No exception)**
@@ -81,6 +88,7 @@ highly demanding, which brings computer vision to drones more and more closely.
 
 **Deadline**: 11:59 PM on May 30, 2022
 
+**Final score = highest mAP / 0.3539 * 100** 
 
 ## <div align="center">Getting Started</div>
 
