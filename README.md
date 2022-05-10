@@ -79,7 +79,7 @@ highly demanding, which brings computer vision to drones more and more closely.
 - We will use the popular COCO mAP@50 score to judge the accuracy of object detection models.
 - More details about this metric can be found here: [link](https://towardsdatascience.com/map-mean-average-precision-might-confuse-you-5956f1bfa9e2)
 - **Final score = Your mAP / 0.3539 * 100** 
-- 
+
 </details>
 
 **Submission link**: https://codalab.lisn.upsaclay.fr/competitions/4806
