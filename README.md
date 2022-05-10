@@ -88,7 +88,7 @@ highly demanding, which brings computer vision to drones more and more closely.
 
 **Deadline**: 11:59 PM on May 30, 2022
 
-**Final score = highest mAP / 0.3539 * 100** 
+**Final score = Your mAP / 0.3539 * 100** 
 
 ## <div align="center">Getting Started</div>
 
