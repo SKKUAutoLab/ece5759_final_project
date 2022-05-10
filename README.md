@@ -67,9 +67,9 @@ highly demanding, which brings computer vision to drones more and more closely.
 
 - Given a limited amount of training time (2 weeks), you must obtain the highest accuracy on the given dataset.
 - You must make a submission file of the test-set:
-  - Run prediction scripts in the Jupyter Notebook and obtain the results (.txt file) for each image.
-  - Compress the `labels` folder and rename it to: `student_id.zip`
-- **We will select the best result among all trials of each student.**
+  - Run prediction scripts (in the Jupyter Notebook) and obtain the results (.txt files) for each image.
+  - Compress the `labels` folder (containing all .txt files) and rename it to: `student_id.zip`.
+  - Upload the `.zip` file to CodaLab website.
 
 </details>
 
@@ -78,7 +78,8 @@ highly demanding, which brings computer vision to drones more and more closely.
 
 - We will use the popular COCO mAP@50 score to judge the accuracy of object detection models.
 - More details about this metric can be found here: [link](https://towardsdatascience.com/map-mean-average-precision-might-confuse-you-5956f1bfa9e2)
-
+- **Final score = Your mAP / 0.3539 * 100** 
+- 
 </details>
 
 **Submission link**: https://codalab.lisn.upsaclay.fr/competitions/4806
@@ -88,7 +89,6 @@ highly demanding, which brings computer vision to drones more and more closely.
 
 **Deadline**: 11:59 PM on May 30, 2022
 
-**Final score = Your mAP / 0.3539 * 100** 
 
 ## <div align="center">Getting Started</div>
 
