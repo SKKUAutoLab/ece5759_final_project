@@ -117,9 +117,3 @@ pip install -r requirements.txt
 # Finally, run Jupyter Notebook and open the `final_project.ipynb` file in your web browser:
 jupyter-notebook
 ```
-
-## <div align="center">Leaderboard</div>
-
-| Student ID |   mAP@50 (1st)    | mAP@50 (2nd) | mAP@50 (Final) |
-|------------|:-----------------:|-------------:|---------------:|
-| Baseline   | 0.199 (20 epochs) |              |                |
