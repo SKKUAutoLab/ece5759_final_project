@@ -218,3 +218,4 @@ crashlytics-build.properties
 fabric.properties
 /data/visdrone/test/labels/
 /data/visdrone/test/annotations/
+/competition_bundle/*

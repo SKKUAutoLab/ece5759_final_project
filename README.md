@@ -63,24 +63,22 @@ highly demanding, which brings computer vision to drones more and more closely.
 </details>
 
 <details open>
-<summary>Deadline:</summary>
-
-- **First trial: 11:59 PM at May 16**
-- **Second trial: 11:59 PM at May 23**
-- **Final: 11:59 PM at May 30**
-
-</details>
-
-<details open>
 <summary>Goals</summary>
 
 - Given a limited amount of training time (2 weeks), you must obtain the highest accuracy on the given dataset.
 - You must make a submission file of the test-set:
   - Run prediction scripts in the Jupyter Notebook and obtain the results (.txt file) for each image.
-  - Compress everything to a single zip file and rename it to: `student_id.zip`
+  - Compress the `labels` folder and rename it to: `student_id.zip`
 - **We will select the best result among three trials of each student and announce the result of each trial.**
 
 </details>
+
+
+**Submission link**: https://codalab.lisn.upsaclay.fr/competitions/4806
+- Max total submissions: 100
+- Max submissions per day: 10
+
+**Deadline**: 11:59 PM on May 30, 2022
 
 
 ## <div align="center">Getting Started</div>
