@@ -69,12 +69,13 @@ highly demanding, which brings computer vision to drones more and more closely.
 - You must make a submission file of the test-set:
   - Run prediction scripts in the Jupyter Notebook and obtain the results (.txt file) for each image.
   - Compress the `labels` folder and rename it to: `student_id.zip`
-- **We will select the best result among three trials of each student and announce the result of each trial.**
+- **We will select the best result among all trials of each student.**
 
 </details>
 
 
 **Submission link**: https://codalab.lisn.upsaclay.fr/competitions/4806
+- **Register using school email account (No exception)**
 - Max total submissions: 100
 - Max submissions per day: 10
 
